@@ -1,0 +1,367 @@
+@media(min-width:992px) and (max-width:1199px) {
+    .head-right {
+        width: 370px
+    }
+
+    .head-right .col-md-5 {
+        width: 145px;
+        float: left
+    }
+
+    .head-right .col-md-7 {
+        width: 220px;
+        float: left
+    }
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    .head-left {
+        width: 300px;
+        float: left;
+        line-height: 30px
+    }
+
+    .head-right {
+        width: 370px;
+        float: right
+    }
+
+    .head-right .col-md-5 {
+        width: 145px;
+        float: left
+    }
+
+    .head-right .col-md-7 {
+        width: 220px;
+        float: left
+    }
+}
+
+@media(max-width:767px) {
+    #header {
+        height: 75px
+    }
+
+    #header .container-flex {
+        margin: 0;
+        padding: 0
+    }
+
+    .head-wrapper .head-left {
+        display: none
+    }
+
+    #header i {
+        color: white;
+        background: 0;
+        font-size: 50px;
+        margin-top: 12px;
+        display: block !important;
+        text-align: center
+    }
+
+    .head-right {
+        display: none;
+        width: 140px;
+        margin-right: 30px;
+        float: right;
+        margin-top: 0
+    }
+
+    .head-right .col-md-5 {
+        width: 145px;
+        float: left
+    }
+
+    .head-right .col-md-7 {
+        width: 240px;
+        float: left
+    }
+
+    .head-right .col-md-3 {
+        width: 50px;
+        float: left
+    }
+
+    .cxy-child {
+        margin: 0 auto;
+        width: -webkit-max-content;
+        width: -moz-max-content;
+        width: max-content
+    }
+
+    #body .name {
+        width: 120px;
+        padding-left: 1px
+    }
+
+    #body .author:nth-child(1) {
+        width: 250px;
+        padding-left: 1px
+    }
+
+    #Agreement {
+        font-size: 12px;
+        line-height: 13px
+    }
+
+    a#createPg {
+        word-spacing: -1px;
+        font-weight: 50
+    }
+}
+
+@media(max-width:462px) {
+    body {
+        overflow: hidden
+    }
+
+    #header {
+        height: 55px
+    }
+
+    #header .container-flex {
+        margin: 0;
+        padding: 0
+    }
+
+    .head-wrapper .head-left {
+        display: none
+    }
+
+    #header i.fa.fa-facebook {
+        font-size: 30px;
+        margin: 0;
+        line-height: 55px;
+        overflow: hidden
+    }
+
+    .head-right {
+        display: none;
+        width: 140px;
+        margin-right: 30px;
+        float: right;
+        margin-top: 0
+    }
+
+    .head-right .col-md-5 {
+        width: 145px;
+        float: left
+    }
+
+    .head-right .col-md-7 {
+        width: 240px;
+        float: left
+    }
+
+    .head-right .col-md-3 {
+        width: 50px;
+        float: left
+    }
+
+    .cxy-child {
+        margin: 0 auto;
+        width: -webkit-max-content;
+        width: -moz-max-content;
+        width: max-content
+    }
+
+    #body .name {
+        font-size: 16px;
+        width: 97px;
+        padding-left: 5px;
+        height: 33px
+    }
+
+    #body .author:nth-child(1) {
+        font-size: 16px;
+        width: 200px;
+        padding-left: 1px;
+        height: 33px;
+        padding-left: 5px
+    }
+
+    #Agreement {
+        font-size: 9px;
+        line-height: 15px;
+        text-align: justify
+    }
+
+    a#createPg {
+        word-spacing: -1px;
+        font-weight: 50
+    }
+
+    #createAcct {
+        line-height: 50px;
+        font-size: 22px;
+        margin-bottom: 0
+    }
+
+    #body p:nth-child(2) {
+        width: max-conent;
+        height: 20px;
+        font-size: 13px
+    }
+
+    #footer hr {
+        width: 180px
+    }
+
+    #BD {
+        font-size: 16px;
+        width: 200px;
+        height: 28px;
+        padding-left: 5px
+    }
+
+    #why {
+        font-size: 9px
+    }
+
+    #createPg {
+        font-size: 9px
+    }
+
+    #foot {
+        margin-left: 0 auto;
+        padding: 0 20px;
+        font-size: 9px;
+        text-align: justify
+    }
+
+    #body p[title="bd"] {
+        font-size: 15px;
+        margin-bottom: 10px;
+        margin-top: 0;
+        line-height: 10px
+    }
+}
+
+@media(max-width:630px) {
+    #foot {
+        padding: 0 10px
+    }
+}
+
+@media(max-width:610px) {
+    #foot {
+        padding: 0 5px
+    }
+}
+
+@media(max-width:600px) {
+    #foot {
+        padding: 0
+    }
+}
+
+@media(max-width:590px) {
+    #foot {
+        padding: 0 45px
+    }
+}
+
+@media(max-width:526px) {
+    #foot {
+        padding: 0 25px
+    }
+}
+
+@media(max-width:486px) {
+    #foot {
+        padding: 0 15px
+    }
+}
+
+@media(max-width:467px) {
+    #foot {
+        padding: 0 5px
+    }
+}
+
+@media(max-width:448px) {
+    #foot {
+        padding: 0 40px
+    }
+}
+
+@media(max-width:425px) {
+    #foot {
+        padding: 0 30px
+    }
+}
+
+@media(max-width:425px) {
+    #foot {
+        padding: 0 30px
+    }
+}
+
+@media(max-width:382px) {
+    #foot {
+        padding: 0 20px
+    }
+}
+
+@media(max-width:362px) {
+    #foot {
+        padding: 0 10px
+    }
+}
+
+@media(max-width:342px) {
+    #foot {
+        padding: 0 30px
+    }
+}
+
+@media(max-width:319px) {
+    #foot {
+        padding: 0 20px
+    }
+}
+
+@media(max-width:319px) {
+    #foot {
+        padding: 0 20px
+    }
+}
+
+@media(max-width:299px) {
+    #foot {
+        padding: 0 10px
+    }
+}
+
+@media(max-width:279px) {
+    #foot {
+        padding: 0 5px
+    }
+}
+
+@media(max-width:269px) {
+    #foot {
+        padding: 0;
+        line-height: 10px
+    }
+}
+
+@media(max-width:259px) {
+    #foot {
+        padding: 0 5px;
+        word-spacing: -5px
+    }
+}
+
+@media(max-width:239px) {
+    #foot {
+        padding: 0 35px
+    }
+}
+
+@media(max-width:236px) {
+    #foot {
+        padding: 0 25px
+    }
+}

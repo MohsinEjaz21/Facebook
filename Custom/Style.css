@@ -1,0 +1,285 @@
+/*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+|			PRE-LOADER      
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
+
+#preloader {
+	background-color: white;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 99999
+}
+#status {
+	background-image: url("A:/Solo_project/img/preloader/preloader.gif");
+	background-repeat: no-repeat;
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -35px;
+	margin-left: -35px;
+}
+
+/*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+|		 Generic CSS
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
+
+body {
+	margin: 2px;
+	border: 1px solid black;
+	border-bottom: none;
+}
+p {
+	font-family: serif;
+}
+input {
+	border: 1px solid lightgray;
+	color: gray;
+	border-radius: 3px;
+	padding-left: 5px;
+}
+a {
+	color: blue;
+}
+a:visited {
+	color: #FFFF66;
+}
+a:hover {
+	color: green;
+	text-decoration: none;
+}
+a:active {
+	color: blue;
+}
+
+/*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+|		 Centering Content
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
+
+
+/*Center vertically and horizontaly----cxy*/
+
+.cxy-parent {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	min-height: 100%;
+	margin: 0;
+}
+.cxy-child {
+	margin: auto
+}
+
+/*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+|		HEADER SECTION
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
+
+#header .container-flex {
+	margin-left: 100px;
+	margin-right: 0px
+}
+#header .row,
+.col-md-12,
+.col-md-11,
+.col-md-10,
+.col-md-6,
+.col-md-9,
+.col-md-8,
+.col-md-7,
+.col-md-3,
+.col-md-4,
+.col-md-2,
+.col-md-1,
+.col-md-5 {
+	padding: 0;
+}
+#header input {
+	width: 140px;
+	font-size: 12px;
+	height: 20px
+}
+#header {
+	border-bottom: 1px solid black;
+	background-color: #48649F;
+}
+.head-wrapper {
+	height: 100px;
+	color: white;
+	font-family: sans-serif
+}
+.head-left span {
+	display: block;
+	line-height: 100px;
+	font-size: 30px;
+	font-weight: 700
+}
+.head-right {
+	margin-top: 20px;
+}
+#login {
+	background-color: #5E974A;
+	color: white;
+	border-radius: 5px;
+	width: 50px;
+	height: 23px;
+	font-size: 13px;
+	border: 1px solid transparent;
+}
+
+/*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+|		BODY SECTION
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
+
+
+/*Create new Account*/
+
+#createAcct {
+	width: -webkit-max-content;
+	width: -moz-max-content;
+	width: max-content;
+	height: 40px;
+	font-size: 35px;
+	font-style: normal;
+}
+
+/*Its Fr1ee*/
+
+#body p:nth-child(2) {
+	width: max-conent;
+	height: 30px;
+	font-size: 20px;
+}
+
+/*input fields*/
+
+#body-form .row {
+	padding-left: 15px;
+}
+#body-form .col-md-3 {
+	padding: 0;
+	margin-right: 7px;
+	width: -webkit-max-content;
+	width: -moz-max-content;
+	width: max-content;
+}
+#body-form .col-md-6 {
+	padding: 0;
+	margin: 0;
+	width: -webkit-max-content;
+	width: -moz-max-content;
+	width: max-content
+}
+#body-form .col-md-12 {
+	padding: 0;
+	margin: 0;
+	width: -webkit-max-content;
+	width: -moz-max-content;
+	width: max-content
+}
+#body-form .row:nth-child(3) {
+	margin-bottom: 15px
+}
+.form-fill {
+	width: 300px;
+	height: 40px;
+	font-size: 20px;
+	color: gray;
+	font-style: normal;
+	padding-left: 10px;
+	border-radius: 5px;
+	border: 1px solid lightgray;
+	margin: 3px 0;
+}
+.name {
+	width: 146px;
+}
+#body-form p:nth-child(4) {
+	font-size: 25px;
+	margin-bottom: 0;
+}
+#BD {
+	width: 150px;
+	padding: 5px 3px;
+	color: lightgray;
+	border-radius: 5px;
+	margin-right: 3px;
+}
+#why {
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	margin: 0;
+	padding: 0;
+	line-height: 13px;
+	font-size: 12.25px;
+	word-spacing: -1px;
+	font-style: normal;
+}
+.row:nth-child(5) {
+	margin-bottom: 10px;
+}
+#Agreement {
+	font-size: 12.25px;
+	font-style: normal;
+	line-height: 15px;
+	margin-bottom: 10px;
+}
+#signup {
+	background-color: #5E974A;
+	color: white;
+	border-radius: 5px;
+	padding: 5px
+}
+#body-form hr {
+	height: 1px;
+	width: 100px;
+	margin: 10px 0px;
+	background: lightgray;
+}
+#body {
+	border-bottom: 1px solid #000;
+	padding-bottom: 15px;
+}
+
+span select[name="birthday_day"]{
+	background-color: #ffffff;
+	padding-right: 5px
+
+}
+
+/*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+|		FOOTER SECTION
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
+
+#footer {
+	margin: 10px 0 0 0;
+	border-bottom: 1px solid black;
+	padding-bottom: 10px;
+}
+#footer hr {
+	height: 1px;
+	width: 400px;
+	margin: 10px 0px;
+	background: lightgray;
+}
+#footer a {
+	padding: 5px;
+	color: blue;
+}
+#footer a:hover {
+	color: green;
+}
+
+
+#foot{
+	padding:0 20px;
+	font-size: 13px;
+	text-align: justify;
+
+}
+
+
+

@@ -1,0 +1,8 @@
+Note::
+
+-Plz install fonts(location :  links/font/install) 
+-links inside HTML are Global dont change them 
+-dont move file/folder to different location 
+
+
+ 
